@@ -1,0 +1,49 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top,.footer{
+    background-color: #1F2937;
+    color: white;
+}
+
+p{
+    margin: 0;
+}
+
+a, .herosub{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.hero{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header p{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.btn-one{
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.one img{
+    width: 500px;
+}
+.one{
+    display: flex;
+}
+.herobox{
+    width: 500px;
+}
