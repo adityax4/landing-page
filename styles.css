@@ -4,6 +4,8 @@ body{
     padding: 0;
 }
 
+/* Top Div */
+
 .top,.footer{
     background-color: #1F2937;
     color: white;
@@ -66,4 +68,40 @@ a, .herosub{
 .links{
     display: flex;
     gap: 20px;
+}
+
+/* Second Div */
+.heading{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.info img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-color: #3882f6;
+    border-style: solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.info p{
+    text-align: center;
+    color: grey;
+}
+
+.items{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-bottom: 100px;
+}
+
+.info{
+    width: 200px;
 }
