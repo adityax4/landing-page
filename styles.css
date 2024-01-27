@@ -36,6 +36,8 @@ a, .herosub{
     padding: 5px 20px;
     border: none;
     border-radius: 5px;
+    font-weight: bold;
+    margin-top: 8px;
 }
 
 .one img{
@@ -43,7 +45,10 @@ a, .herosub{
 }
 .one{
     display: flex;
+    justify-content: center;
+    gap: 50px;
 }
 .herobox{
-    width: 500px;
+    width: 450px;
 }
+
